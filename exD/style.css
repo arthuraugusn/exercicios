@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+    color: white;
+    gap: 20px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: darkred;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.formular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+input {
+    display: flex;
+    width: 200px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixa{
+    height: 40em;
+    width: 40em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+p{
+    color: white;
+    font-size: 1.7rem;
+}
+
+label{
+    color: rgba(255, 255, 255, 0.596);
+    font-size: 1.5rem;
+}
+
+.button.blue {
+    background-color: #4494bb;
+}
+
+button.green {
+    background-color: #618974;
+}
+
+button.red {
+    background-color: #ab5c5c;
+}
+
+button.template {
+    background-color: #ff0055;
+}
+
+.button {
+    height: 40px;
+    padding: 6px 12px;
+    border-style: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: box-shadow 1s ease;
+}
+
+.button:hover {
+    box-shadow: inset 0px 0px 0px 20px #00000066;
+}
+
+.resultado{
+    background-color: rgb(128, 24, 24);
+    width: 700px;
+    height: 400px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a{
+    font-size: 1.2rem;
+    color: rgb(119, 255, 0);
+    text-decoration: none;
+}
