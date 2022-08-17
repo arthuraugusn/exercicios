@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+    color: white;
+    gap: 20px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: darkred;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    color: rgb(180, 166, 194);
+    font-size: 3rem;
+}
+.caixa{
+    height: 40em;
+    width: 40em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
